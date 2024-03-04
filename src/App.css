@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif ;
+}
+body{
+  background-color: aliceblue;
+}
+.navbarSection{
+  display: flex;
+  border: 1px solid hwb(271 4% 18%);
+  background-color:hwb(271 4% 18%);
+  justify-content: space-between;
+  color: white;
+  height: 80px;
+  padding: 23px;
+  text-decoration: none;
+}
+
+
+.user{
+  display: flex;
+ }
+ .cart{
+  margin-right: 30px;
+ }
+ .user-details{
+  margin-right: 100px;
+ }
+.Search{
+  display:flex;
+  justify-content:"center";
+  /* border: 1px solid black; */
+  border-radius: 10%;
+   
+}
+
+.mobileSection{
+  display: flex;
+  background-color: white;
+}
+.imgbox{
+  width: 80%;
+  padding-left: 30px;
+}
+.imagestyles{
+  width: 80%;
+}
+.computerSection{
+  display: flex;
+  background-color: white;
+}
+.womenwearSection{
+  display: flex;
+  background-color: white;
+}
+.h2styles{
+  margin: 10px;
+}
+
+.watchesSection{
+  display: flex;
+  background-color: white;
+}
+.subMenu ul li{
+  list-style: none;
+  margin: 16px 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.subMenu{ 
+  height: 45px;
+  background-color: gray;
+  color: azure;
+ 
+ 
+
+}
+.subMenu ul{
+  display: inline-flex;
+  
+}
+.pagesSection{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap:10px ;
+}
+.pageImg{
+  width: 250px;
+  height: 250px;
+}
+.pageImg img{
+  width: 100%;
+}
+.ind-page{
+  display: flex;
+}
+.ind-img{
+  width: 500px;
+  height: 500px;
+}
+.ind-img img {
+width: 100%;
+margin-top: 20px;
+}
+.ind-details{
+  padding: 20px;
+  margin: 10px;
+}
+.ind-details button{
+  background-color: rgb(115, 220, 115);
+  padding: 10px;
+  width: 10rem;
+  border-radius: 5px;
+  columns: white;
+  border: 1px solid  black;
+
+}
+.fullpage{
+  display: flex;
+}
+.pro-selected{
+
+border: 1px solid black;
+width: 1%;
+}
+.pro-input input{
+  margin: 5px;
+}
